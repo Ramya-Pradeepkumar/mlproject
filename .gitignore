@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+notebook/catboost_info/
 *$py.class
 
 # C extensions
