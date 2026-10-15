@@ -1,11 +1,6 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-catboost
-xgboost
-Flask
-dill 
-
-#-e .
+Flask==3.0.3         #— serves your web application.
+numpy==1.24.4 
+pandas==2.0.3
+scikit-learn==1.3.2  # loads and runs your trained model and preprocessor.
+dill                 # supports your existing artifact-loading utility
+gunicorn             # provides a production WSGI server if required by your Elastic Beanstalk setup.
